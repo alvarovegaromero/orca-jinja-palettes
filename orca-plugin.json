@@ -1,0 +1,94 @@
+{
+  "$schema": "https://raw.githubusercontent.com/stablyai/orca/main/docs/schemas/plugins/orca-plugin.v2.schema.json",
+  "manifestVersion": 2,
+  "id": "jinja-palettes",
+  "name": "Jinja Palettes",
+  "version": "1.0.0",
+  "description": "Six classic color palettes (One Dark, Dracula, Monokai, Nord, GitHub Light, Solarized Light) tuned so Jinja delimiters, tags, variables and filters each stand out. Use one as the whole app theme or only as the editor theme. Pairs with Jinja Syntax.",
+  "author": {
+    "name": "Álvaro Vega",
+    "url": "https://github.com/alvarovegaromero"
+  },
+  "repository": "https://github.com/alvarovegaromero/orca-jinja-palettes",
+  "cover": {
+    "path": "media/cover.png",
+    "alt": "The same Jinja template in six palettes: One Dark, Dracula, Monokai, Nord, GitHub Light and Solarized Light"
+  },
+  "screenshots": [
+    {
+      "path": "media/one-dark.png",
+      "alt": "products.html.j2 open in Orca in the One Dark (Jinja) palette",
+      "caption": "One Dark (Jinja)",
+      "theme": "dark"
+    },
+    {
+      "path": "media/dracula.png",
+      "alt": "products.html.j2 open in Orca in the Dracula (Jinja) palette",
+      "caption": "Dracula (Jinja)",
+      "theme": "dark"
+    },
+    {
+      "path": "media/monokai.png",
+      "alt": "products.html.j2 open in Orca in the Monokai (Jinja) palette",
+      "caption": "Monokai (Jinja)",
+      "theme": "dark"
+    },
+    {
+      "path": "media/nord.png",
+      "alt": "products.html.j2 open in Orca in the Nord (Jinja) palette",
+      "caption": "Nord (Jinja)",
+      "theme": "dark"
+    },
+    {
+      "path": "media/github-light.png",
+      "alt": "products.html.j2 open in Orca in the GitHub Light (Jinja) palette",
+      "caption": "GitHub Light (Jinja)",
+      "theme": "light"
+    },
+    {
+      "path": "media/solarized-light.png",
+      "alt": "products.html.j2 open in Orca in the Solarized Light (Jinja) palette",
+      "caption": "Solarized Light (Jinja)",
+      "theme": "light"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "execution": "data",
+  "contributes": {
+    "themes": [
+      {
+        "id": "one-dark",
+        "title": "One Dark (Jinja)",
+        "path": "themes/one-dark.json"
+      },
+      {
+        "id": "dracula",
+        "title": "Dracula (Jinja)",
+        "path": "themes/dracula.json"
+      },
+      {
+        "id": "monokai",
+        "title": "Monokai (Jinja)",
+        "path": "themes/monokai.json"
+      },
+      {
+        "id": "nord",
+        "title": "Nord (Jinja)",
+        "path": "themes/nord.json"
+      },
+      {
+        "id": "github-light",
+        "title": "GitHub Light (Jinja)",
+        "path": "themes/github-light.json"
+      },
+      {
+        "id": "solarized-light",
+        "title": "Solarized Light (Jinja)",
+        "path": "themes/solarized-light.json"
+      }
+    ]
+  }
+}
