@@ -1,0 +1,30 @@
+name: New palette
+description: Ask for a palette to be added.
+labels: [palette]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Palette
+      placeholder: Catppuccin Mocha
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Link to the theme or its colors
+      description: Its license too, if you know it.
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      options: [Dark, Light]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Colors you'd like for {{ }}, for/if, variables or filters, for example.

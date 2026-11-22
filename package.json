@@ -1,0 +1,11 @@
+{
+  "name": "orca-jinja-palettes",
+  "private": true,
+  "description": "Build script for the Jinja Palettes Orca plugin",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-palettes.mjs",
+    "validate": "orca plugin validate ."
+  }
+}

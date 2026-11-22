@@ -1,0 +1,24 @@
+name: Change a palette
+description: A color is hard to read, too dark, or could look better.
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: palette
+    attributes:
+      label: Palette
+      options:
+        - One Dark (Jinja)
+        - Dracula (Jinja)
+        - Monokai (Jinja)
+        - Nord (Jinja)
+        - GitHub Light (Jinja)
+        - Solarized Light (Jinja)
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What you'd change
+      description: A screenshot and, if you have one in mind, the color you'd use.
+    validations:
+      required: true

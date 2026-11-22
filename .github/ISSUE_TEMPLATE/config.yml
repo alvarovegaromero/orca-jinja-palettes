@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Wrong or missing highlighting
+    url: https://github.com/alvarovegaromero/orca-jinja-syntax/issues/new/choose
+    about: If text isn't colored at all, or colored as the wrong thing, it's a Jinja Syntax issue.
+  - name: Orca community discussion
+    url: https://github.com/stablyai/orca/discussions/46915
+    about: Questions and ideas about the Jinja plugins.

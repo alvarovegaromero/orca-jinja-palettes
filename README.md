@@ -23,6 +23,8 @@
 | **GitHub Light (Jinja)**    | light | red             | purple     | blue      | brown   |
 | **Solarized Light (Jinja)** | light | olive           | orange     | blue      | violet  |
 
+Want something less dark? Nord has the softest dark background, a slate gray.
+
 Each palette also colors HTML, CSS, JavaScript, Python, YAML, Markdown and every other language
 Orca highlights, so it works as an everyday theme too. Every color passes Orca's 3:1 contrast check
 against its background, so none of them is dropped.
@@ -87,13 +89,23 @@ Every palette is a short list of roles in [`scripts/palettes.mjs`](scripts/palet
 ```
 
 1. Fork this repository and add or edit a palette.
-2. Run `node scripts/build-palettes.mjs`. It writes `themes/*.json`, lists them in
-   `orca-plugin.json`, and nudges any color under 3:1 contrast toward the text color so Orca
-   keeps it.
+2. Run `npm run build`. It writes `themes/*.json`, lists them in `orca-plugin.json`, and nudges any
+   color under 3:1 contrast toward the text color so Orca keeps it.
 3. Run `orca plugin dev watch .` to see it live in Orca, and pick it in Settings → Appearance.
 
-Orca reads the theme files directly, so you can also edit a `themes/*.json` by hand. Its
-`tokenColors` use the same format as a VS Code theme.
+Orca reads the theme files directly, so for a private tweak you can also edit a `themes/*.json` by
+hand. Its `tokenColors` use the same format as a VS Code theme.
+
+## Contributing
+
+This is an open source project and new palettes are welcome: Catppuccin, Tokyo Night, Gruvbox,
+Rosé Pine, or your own.
+
+- **Send a palette or a fix:** open a pull request. [CONTRIBUTING.md](CONTRIBUTING.md) walks you
+  through it in five steps.
+- **Ask for one:** [open an issue](https://github.com/alvarovegaromero/orca-jinja-palettes/issues/new/choose)
+  with a link to the theme's colors.
+- **Talk about it:** join the [Orca community thread](https://github.com/stablyai/orca/discussions/46915).
 
 ## License
 
