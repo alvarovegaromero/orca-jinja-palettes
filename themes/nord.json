@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "base": "dark",
   "tokens": {
-    "--background": "#2e3440",
-    "--foreground": "#d8dee9",
+    "--background": "#3b4252",
+    "--foreground": "#eceff4",
     "--primary": "#88c0d0",
     "--primary-foreground": "#2e3440"
   },
@@ -14,7 +14,7 @@
         "comment"
       ],
       "settings": {
-        "foreground": "#768299",
+        "foreground": "#8692a8",
         "fontStyle": "italic"
       }
     },
@@ -155,7 +155,7 @@
         "invalid"
       ],
       "settings": {
-        "foreground": "#c16972"
+        "foreground": "#c87d86"
       }
     }
   ]

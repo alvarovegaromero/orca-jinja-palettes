@@ -3,7 +3,7 @@
   "manifestVersion": 2,
   "id": "jinja-palettes",
   "name": "Jinja Palettes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Six classic color palettes (One Dark, Dracula, Monokai, Nord, GitHub Light, Solarized Light) tuned so Jinja delimiters, tags, variables and filters each stand out. Use one as the whole app theme or only as the editor theme. Pairs with Jinja Syntax.",
   "author": {
     "name": "Álvaro Vega",
